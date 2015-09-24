@@ -1,0 +1,41 @@
+
+//https://gist.github.com/benfrain/7545629
+// Add percentage of white to a color
+@function tint($color, $percent) {
+  @return mix(white, $color, $percent);
+}
+
+// Add percentage of black to a color
+@function shade($color, $percent) {
+  @return mix(black, $color, $percent);
+}
+@mixin Lato($weight){
+  font-family: 'Lato', sans-serif;
+  font-weight: $weight;
+}
+@mixin Gara($weight){
+  font-family: 'EB Garamond', serif;
+  font-weight: $weight;
+}
+
+
+
+
+// override Bootstrap variables here
+$icon-font-path: '../fonts/flat-ui/';
+
+
+
+@import "flat-ui/variables";
+
+// bower:scss
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import "flat-ui";
+
+@import "fonts";
+
+@import "theme";
+
+
+// Application Styles here
