@@ -1,8 +1,13 @@
+
+
 .alc{
   text-align: center;
 }
 .alil{
   text-align: left;
+}
+.alir{
+  text-align: right;
 }
 
 .navbar-nav > li > a {
@@ -70,4 +75,8 @@ p {
   font-size: 1em;
   margin-top: 15px;
   margin-bottom: 0px;
+}
+
+p.description {
+  margin-bottom:50px;
 }

@@ -31,6 +31,24 @@ $icon-font-path: '../fonts/flat-ui/';
 // bower:scss
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+//** Global textual link color.
+$link-color:            #FFF;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      rgba(255,255,255,0.7) ;
+//** Link hover decoration.
+$link-hover-decoration: none ;
+// Navbar links
+$navbar-default-link-color:                #FFF ;
+$navbar-default-link-hover-color:          rgba(255,255,255,0.7) ;
+$navbar-default-link-hover-bg:             transparent ;
+$navbar-default-link-active-color:         rgba(255,255,255,0.7) ;
+$navbar-default-link-active-bg:            transparent ;
+$navbar-default-link-disabled-color:       #ccc ;
+$navbar-default-link-disabled-bg:          transparent ;
+
+
+
 @import "flat-ui";
 
 @import "fonts";
